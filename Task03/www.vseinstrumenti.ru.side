@@ -1,0 +1,110 @@
+{
+  "id": "a8e80133-72a9-4ae9-91b1-7b02b79a6b1a",
+  "version": "2.0",
+  "name": "https://www.vseinstrumenti.ru/",
+  "url": "https://www.vseinstrumenti.ru/",
+  "tests": [{
+    "id": "ef3a7fc0-bf73-41f4-a90e-b05872d4afa0",
+    "name": "test1",
+    "commands": [{
+      "id": "70349585-f5c2-4d46-ba85-f0daff035400",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "07d11183-0232-4983-b5ee-57d9e4c697b9",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wZ7bHA .\\_field_1ok44_22",
+      "targets": [
+        ["css=.wZ7bHA .\\_field_1ok44_22", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='__main-page']/div/div/div[3]/div/div[2]/div[2]/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "3000"
+    }, {
+      "id": "0a314de3-e805-418d-a53a-b6e98cd56603",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wZ7bHA .\\_field_1ok44_22",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bfe87759-cfc7-4a0d-a5e0-a831b0871572",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.wZ7bHA .\\_field_1ok44_22",
+      "targets": [],
+      "value": "3000"
+    }, {
+      "id": "28096051-edf5-42fe-aac3-51617e54d293",
+      "comment": "",
+      "command": "type",
+      "target": "css=.wZ7bHA .\\_field_1ok44_22",
+      "targets": [],
+      "value": "шуруповерт Makita"
+    }, {
+      "id": "9e4746d5-2049-4cd4-b56f-9ad34e5703c0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.j4LwBj",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "48769470-ffb6-4bb6-aa48-5cc145093a8c",
+    "name": "test2",
+    "commands": [{
+      "id": "53028a31-d4fa-45a9-9793-506ffed4a4db",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3c428c76-6e62-460c-9a95-3c130588f0bb",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.\\_6eUcj7",
+      "targets": [
+        ["css=.\\_6eUcj7", "css:finder"],
+        ["xpath=//div[@id='__main-page']/div/div/div[4]/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[4]/div/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Акции')]", "xpath:innerText"]
+      ],
+      "value": "7000"
+    }, {
+      "id": "f35fac4a-aac9-4f15-b52a-e8b11c5a6d32",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_6eUcj7",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "812a2147-aa02-43f8-b3ff-75fed3abc41f",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.\\_disabled_eq4od_44",
+      "targets": [
+        ["css=.\\_disabled_eq4od_44", "css:finder"],
+        ["xpath=//nav[@id='breadcrumbs-anchor']/span", "xpath:idRelative"],
+        ["xpath=//nav/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Наши акции')]", "xpath:innerText"]
+      ],
+      "value": "3000"
+    }]
+  }],
+  "suites": [{
+    "id": "f042ec4b-0bdb-430d-8c61-b4d2329930d3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ef3a7fc0-bf73-41f4-a90e-b05872d4afa0"]
+  }],
+  "urls": ["https://www.vseinstrumenti.ru/"],
+  "plugins": []
+}
